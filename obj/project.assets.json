@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BS626\\Desktop\\Template\\NopPluginTemplate\\NopTemplatePack.csproj",
-      "projectName": "NopTemplatePack",
-      "projectPath": "C:\\Users\\BS626\\Desktop\\Template\\NopPluginTemplate\\NopTemplatePack.csproj",
+      "projectUniqueName": "C:\\Users\\BS626\\Desktop\\Template\\Nopcommerce-Plugin-Template\\NopTemplatePack.csproj",
+      "projectName": "Nop.Plgugin.Templates",
+      "projectPath": "C:\\Users\\BS626\\Desktop\\Template\\Nopcommerce-Plugin-Template\\NopTemplatePack.csproj",
       "packagesPath": "C:\\Users\\BS626\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BS626\\Desktop\\Template\\NopPluginTemplate\\obj\\",
+      "outputPath": "C:\\Users\\BS626\\Desktop\\Template\\Nopcommerce-Plugin-Template\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,9 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU5128"
+        ],
         "warnAsError": [
           "NU1605"
         ]

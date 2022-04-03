@@ -5,7 +5,7 @@
   "classifications": [ "Web" ],
   "identity": "Nopcommerce.Templates.Widget",
   "name": "Nopcommerce Widget Plugin",
-  "shortName": "nopwidget",
+  "shortName": "nop-widget",
   "preferNameDirectory" : true,
   "description": "Nopcommerce widget plugin template",
   "tags": {

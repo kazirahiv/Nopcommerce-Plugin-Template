@@ -5,7 +5,7 @@
   "classifications": [ "Web" ],
   "identity": "Nopcommerce.Templates.Misc",
   "name": "Nopcommerce Misc Plugin",
-  "shortName": "nopmisc",
+  "shortName": "nop-misc",
   "preferNameDirectory" : true,
   "description": "Nopcommerce misc plugin template",
   "tags": {

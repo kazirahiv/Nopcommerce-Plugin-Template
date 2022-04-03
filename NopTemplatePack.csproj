@@ -23,5 +23,22 @@
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="**\*" />
+    <None Include="icon.png" LinkBase="shared" Visible="false" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <!-- Shared items to include in every template -->
+  <ItemGroup>
+    <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewMisc\.template.config" PackagePath="content\Nop.Plugin.Misc.NewMisc\.template.config" />
+    <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewPayment\.template.config" PackagePath="content\Nop.Plugin.Misc.NewPayment\.template.config" />
+    <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewWidget\.template.config" PackagePath="content\Nop.Plugin.Misc.NewWidget\.template.config" />
+  </ItemGroup>
+
+
+
+
+
 
 </Project>

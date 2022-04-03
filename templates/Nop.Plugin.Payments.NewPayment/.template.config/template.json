@@ -5,7 +5,7 @@
   "classifications": [ "Web" ],
   "identity": "Nopcommerce.Templates.Payment",
   "name": "Nopcommerce Payment Plugin",
-  "shortName": "noppayment",
+  "shortName": "nop-payment",
   "preferNameDirectory" : true,
   "description": "Nopcommerce payment plugin template",
   "tags": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I+anfRCAJtQauc2KjjO25M9Mjp6v87Ap0e+6s8n7r3fu0qhsu40mZMzJRlSHyGMub+XpjHhVc5hFJJkZhpmzAA==",
+  "dgSpecHash": "DLrdU2E8iAlB303zjZCo732TAboZkLZ0YDZqxxvpsN7Qfa6ZQfbtXXTtxJmFCjt8CxBLNjGlPG0L7nUPonJa1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BS626\\Desktop\\Template\\NopPluginTemplate\\NopTemplatePack.csproj",
+  "projectFilePath": "C:\\Users\\BS626\\Desktop\\Template\\Nopcommerce-Plugin-Template\\NopTemplatePack.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
