@@ -1,0 +1,13 @@
+﻿@model ConfigurationModel
+
+@using Nop.Plugin.Misc.NewMisc
+@using Nop.Plugin.Misc.NewMisc.Models
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+<link rel="stylesheet" href="~/Plugins/Misc.NewMisc/Content/styles.css" />
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+

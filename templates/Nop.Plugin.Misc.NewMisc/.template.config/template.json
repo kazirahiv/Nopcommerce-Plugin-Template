@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Kazi Rahiv",
+  "sourceName": "NewMisc",
+  "classifications": [ "Web" ],
+  "identity": "Nopcommerce.Templates.Misc",
+  "name": "Nopcommerce Misc Plugin",
+  "shortName": "nopmisc",
+  "preferNameDirectory" : true,
+  "description": "Nopcommerce misc plugin template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

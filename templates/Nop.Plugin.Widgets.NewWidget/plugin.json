@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "New Widget",
+  "SystemName": "Widgets.NewWidget",
+  "Version": "1.45",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "Kazi Rahiv",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.NewWidget.dll",
+  "Description": "This plugin is a widget"
+}
