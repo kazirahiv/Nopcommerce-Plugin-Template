@@ -33,6 +33,7 @@ Put your plugin name and set Plugins path of your Nopcommerce project
 
 
 Customize as you want 
+
 ![](https://i.ibb.co/z5TWmYF/image.png)
 
 
