@@ -17,6 +17,7 @@
     </dependencies>
   </metadata>
   <files>
+    <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\.template.config\icon.png" target="content\templates\Nop.Plugin.Misc.NewMisc\.template.config\icon.png" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\.template.config\template.json" target="content\templates\Nop.Plugin.Misc.NewMisc\.template.config\template.json" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Content\styles.css" target="content\templates\Nop.Plugin.Misc.NewMisc\Content\styles.css" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Controllers\NewMiscController.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\Controllers\NewMiscController.cs" />
@@ -33,6 +34,7 @@
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Views\Configure.cshtml" target="content\templates\Nop.Plugin.Misc.NewMisc\Views\Configure.cshtml" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Views\PublicInfo.cshtml" target="content\templates\Nop.Plugin.Misc.NewMisc\Views\PublicInfo.cshtml" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Views\_ViewImports.cshtml" target="content\templates\Nop.Plugin.Misc.NewMisc\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\.template.config\icon.png" target="content\templates\Nop.Plugin.Payments.NewPayment\.template.config\icon.png" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\.template.config\template.json" target="content\templates\Nop.Plugin.Payments.NewPayment\.template.config\template.json" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Components\NewPaymentViewComponent.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Components\NewPaymentViewComponent.cs" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Controllers\NewPaymentController.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Controllers\NewPaymentController.cs" />
@@ -50,6 +52,7 @@
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Views\Configure.cshtml" target="content\templates\Nop.Plugin.Payments.NewPayment\Views\Configure.cshtml" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Views\PaymentInfo.cshtml" target="content\templates\Nop.Plugin.Payments.NewPayment\Views\PaymentInfo.cshtml" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Views\_ViewImports.cshtml" target="content\templates\Nop.Plugin.Payments.NewPayment\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\.template.config\icon.png" target="content\templates\Nop.Plugin.Widgets.NewWidget\.template.config\icon.png" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\.template.config\template.json" target="content\templates\Nop.Plugin.Widgets.NewWidget\.template.config\template.json" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Components\WidgetsNewWidgetViewComponent.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\Components\WidgetsNewWidgetViewComponent.cs" />
     <file src="C:\Users\BS626\Desktop\Template\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Content\style.css" target="content\templates\Nop.Plugin.Widgets.NewWidget\Content\style.css" />

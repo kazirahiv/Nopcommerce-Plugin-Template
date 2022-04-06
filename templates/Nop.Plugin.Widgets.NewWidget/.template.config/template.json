@@ -5,6 +5,7 @@
     "Web"
   ],
   "name": "Nopcommerce Widget Plugin",
+  "icon": "icon.png",
   "identity": "Nopcommerce.Templates.Widget",
   "shortName": "nop-widget",
   "tags": {

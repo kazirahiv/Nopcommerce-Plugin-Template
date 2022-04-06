@@ -4,15 +4,16 @@
   "classifications": [
     "Web"
   ],
-  "name": "Nopcommerce Widget Plugin",
-  "identity": "Nopcommerce.Templates.Widget",
-  "shortName": "nop-widget",
+  "name": "Nopcommerce Payment Plugin",
+  "icon": "icon.png",
+  "identity": "Nopcommerce.Templates.Payment",
+  "shortName": "nop-payment",
   "tags": {
     "language": "C#",
     "type": "project"
   },
   "preferNameDirectory": true,
-  "sourceName": "NewWidget",
+  "sourceName": "NewPayment",
   "symbols": {
     "AddSettings": {
       "displayName": "Add settings class",
@@ -58,7 +59,7 @@
         {
           "condition": "(!AddSettings)",
           "exclude": [
-            "NewWidgetSettings.cs"
+            "NewPaymentSettings.cs"
           ]
         },
         {
@@ -70,7 +71,7 @@
         {
           "condition": "(!AddDefaults)",
           "exclude": [
-            "NewWidgetDefaults.cs"
+            "NewPaymentDefaults.cs"
           ]
         }
       ]

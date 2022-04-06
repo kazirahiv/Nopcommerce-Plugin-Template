@@ -5,6 +5,7 @@
     "Web"
   ],
   "name": "Nopcommerce Misc Plugin",
+  "icon": "icon.png",
   "identity": "Nopcommerce.Templates.Misc",
   "shortName": "nop-misc",
   "tags": {
