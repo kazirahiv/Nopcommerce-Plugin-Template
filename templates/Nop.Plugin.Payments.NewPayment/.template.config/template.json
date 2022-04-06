@@ -1,15 +1,79 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Kazi Rahiv",
-  "sourceName": "NewPayment",
-  "classifications": [ "Web" ],
-  "identity": "Nopcommerce.Templates.Payment",
-  "name": "Nopcommerce Payment Plugin",
-  "shortName": "nop-payment",
-  "preferNameDirectory" : true,
-  "description": "Nopcommerce payment plugin template",
+  "classifications": [
+    "Web"
+  ],
+  "name": "Nopcommerce Widget Plugin",
+  "identity": "Nopcommerce.Templates.Widget",
+  "shortName": "nop-widget",
   "tags": {
     "language": "C#",
     "type": "project"
-  }
+  },
+  "preferNameDirectory": true,
+  "sourceName": "NewWidget",
+  "symbols": {
+    "AddSettings": {
+      "displayName": "Add settings class",
+      "type": "parameter",
+      "description": "Adds class for plugin settings",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "AddDefaults": {
+      "displayName": "Add defaults class",
+      "type": "parameter",
+      "description": "Adds defaults class to declare plugin defaults",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "AddIPNController": {
+      "displayName": "Add controller class for IPN",
+      "type": "parameter",
+      "description": "Adds defaults class to declare plugin defaults",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "AuthorName": {
+      "displayName": "Author name",
+      "type": "parameter",
+      "description": "The plugin author name",
+      "datatype": "text",
+      "defaultValue": "My Team",
+      "replaces": "%AuthorName%"
+    },
+    "VersionName": {
+      "displayName": "Version Name",
+      "type": "parameter",
+      "description": "Plugin version",
+      "datatype": "text",
+      "defaultValue": "1.0.0",
+      "replaces": "%VersionName%"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!AddSettings)",
+          "exclude": [
+            "NewWidgetSettings.cs"
+          ]
+        },
+        {
+          "condition": "(!AddIPNController)",
+          "exclude": [
+            "Controllers/NewPaymentIpnController.cs"
+          ]
+        },
+        {
+          "condition": "(!AddDefaults)",
+          "exclude": [
+            "NewWidgetDefaults.cs"
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -2,9 +2,9 @@
   "Group": "Payment methods",
   "FriendlyName": "NewPayment",
   "SystemName": "Payments.NewPayment",
-  "Version": "1.71",
   "SupportedVersions": [ "4.50" ],
-  "Author": "Kazi Rahiv",
+  "Author": "%AuthorName%",
+  "Version": "%VersionName%",
   "DisplayOrder": 0,
   "FileName": "Nop.Plugin.Payments.NewPayment.dll",
   "Description": "This plugin allows paying"

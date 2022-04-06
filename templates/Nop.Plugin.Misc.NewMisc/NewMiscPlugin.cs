@@ -28,7 +28,9 @@ namespace Nop.Plugin.Misc.NewMisc
         private readonly ILocalizationService _localizationService;
         private readonly IMessageTemplateService _messageTemplateService;
         private readonly IScheduleTaskService _scheduleTaskService;
-        private readonly ISettingService _settingService;
+        #if (AddSettings)
+            private readonly ISettingService _settingService;
+        #endif
         private readonly IStoreService _storeService;
         private readonly IWebHelper _webHelper;
         private readonly WidgetSettings _widgetSettings;
@@ -42,7 +44,9 @@ namespace Nop.Plugin.Misc.NewMisc
             ILocalizationService localizationService,
             IMessageTemplateService messageTemplateService,
             IScheduleTaskService scheduleTaskService,
-            ISettingService settingService,
+            #if (AddSettings)
+                ISettingService settingService,
+            #endif
             IStoreService storeService,
             IWebHelper webHelper,
             WidgetSettings widgetSettings)
@@ -52,7 +56,9 @@ namespace Nop.Plugin.Misc.NewMisc
             _localizationService = localizationService;
             _messageTemplateService = messageTemplateService;
             _scheduleTaskService = scheduleTaskService;
+            #if (AddSettings)
             _settingService = settingService;
+            #endif
             _storeService = storeService;
             _webHelper = webHelper;
             _widgetSettings = widgetSettings;
@@ -78,12 +84,15 @@ namespace Nop.Plugin.Misc.NewMisc
         {
             //settings
 
-
+            #if (AddSettings)
             if (!_widgetSettings.ActiveWidgetSystemNames.Contains(NewMiscDefaults.SystemName))
             {
                 _widgetSettings.ActiveWidgetSystemNames.Add(NewMiscDefaults.SystemName);
                 await _settingService.SaveSettingAsync(_widgetSettings);
             }
+            #endif
+
+            
 
             //locales
             await _localizationService.AddOrUpdateLocaleResourceAsync(new Dictionary<string, string>
@@ -100,6 +109,7 @@ namespace Nop.Plugin.Misc.NewMisc
         public override async Task UninstallAsync()
         {
 
+            #if (AddSettings)
             //settings
             if (_widgetSettings.ActiveWidgetSystemNames.Contains(NewMiscDefaults.SystemName))
             {
@@ -107,6 +117,7 @@ namespace Nop.Plugin.Misc.NewMisc
                 await _settingService.SaveSettingAsync(_widgetSettings);
             }
             await _settingService.DeleteSettingAsync<NewMiscSettings>();
+            #endif
 
             //locales
             await _localizationService.DeleteLocaleResourcesAsync("Plugins.Misc.NewMisc");

@@ -2,9 +2,9 @@
   "Group": "Misc",
   "FriendlyName": "NewMisc",
   "SystemName": "Misc.NewMisc",
-  "Version": "3.38",
+  "Version": "%VersionName%",
   "SupportedVersions": [ "4.50" ],
-  "Author": "nopCommerce team",
+  "Author": "%AuthorName%",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Misc.NewMisc.dll",
   "Description": "This plugin allows to integrate with NewMisc service"

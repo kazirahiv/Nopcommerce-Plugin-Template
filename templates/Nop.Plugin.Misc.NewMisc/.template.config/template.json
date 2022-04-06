@@ -1,15 +1,66 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Kazi Rahiv",
-  "sourceName": "NewMisc",
-  "classifications": [ "Web" ],
-  "identity": "Nopcommerce.Templates.Misc",
+  "classifications": [
+    "Web"
+  ],
   "name": "Nopcommerce Misc Plugin",
+  "identity": "Nopcommerce.Templates.Misc",
   "shortName": "nop-misc",
-  "preferNameDirectory" : true,
-  "description": "Nopcommerce misc plugin template",
   "tags": {
     "language": "C#",
     "type": "project"
-  }
+  },
+  "preferNameDirectory": true,
+  "sourceName": "NewMisc",
+  "symbols": {
+    "AddSettings": {
+      "displayName": "Add Settings Class",
+      "type": "parameter",
+      "description": "Adds class for plugin settings",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "AddDefaults": {
+      "displayName": "Add Defaults Class",
+      "type": "parameter",
+      "description": "Adds defaults class to declare plugin defaults",
+      "datatype": "bool",
+      "defaultValue": "false"
+    },
+    "AuthorName": {
+      "displayName": "Author Name",
+      "type": "parameter",
+      "description": "The plugin author name",
+      "datatype": "text",
+      "defaultValue": "My Team",
+      "replaces": "%AuthorName%"
+    },
+    "VersionName": {
+      "displayName": "Version Name",
+      "type": "parameter",
+      "description": "Plugin version",
+      "datatype": "text",
+      "defaultValue": "1.0.0",
+      "replaces": "%VersionName%"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!AddSettings)",
+          "exclude": [
+            "NewMiscSettings.cs"
+          ]
+        },
+        {
+          "condition": "(!AddDefaults)",
+          "exclude": [
+            "NewMiscDefaults.cs"
+          ]
+        }
+      ]
+    }
+  ]
 }
