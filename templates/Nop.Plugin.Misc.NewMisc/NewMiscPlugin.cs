@@ -85,9 +85,9 @@ namespace Nop.Plugin.Misc.NewMisc
             //settings
 
             #if (AddSettings)
-            if (!_widgetSettings.ActiveWidgetSystemNames.Contains(NewMiscDefaults.SystemName))
+            if (!_widgetSettings.ActiveWidgetSystemNames.Contains("Misc.NewMisc"))
             {
-                _widgetSettings.ActiveWidgetSystemNames.Add(NewMiscDefaults.SystemName);
+                _widgetSettings.ActiveWidgetSystemNames.Add("Misc.NewMisc");
                 await _settingService.SaveSettingAsync(_widgetSettings);
             }
             #endif
@@ -111,9 +111,9 @@ namespace Nop.Plugin.Misc.NewMisc
 
             #if (AddSettings)
             //settings
-            if (_widgetSettings.ActiveWidgetSystemNames.Contains(NewMiscDefaults.SystemName))
+            if (_widgetSettings.ActiveWidgetSystemNames.Contains("Misc.NewMisc"))
             {
-                _widgetSettings.ActiveWidgetSystemNames.Remove(NewMiscDefaults.SystemName);
+                _widgetSettings.ActiveWidgetSystemNames.Remove("Misc.NewMisc");
                 await _settingService.SaveSettingAsync(_widgetSettings);
             }
             await _settingService.DeleteSettingAsync<NewMiscSettings>();
