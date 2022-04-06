@@ -1,7 +1,5 @@
 # Nopcommerce Plugin Templates
 
-![](https://pbs.twimg.com/profile_images/1197439720957120517/bBMARwt8_400x400.png)
-
 Nopcommerce Plugin Templates is a bundle of multiple templates which helps creating different kind of Nopcommerce plugin/extensions at ease. 
 
 ## Installation
