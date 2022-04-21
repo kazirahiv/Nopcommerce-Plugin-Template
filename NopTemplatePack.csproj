@@ -3,8 +3,8 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0</PackageVersion>
-	<PackageIcon>icon.png</PackageIcon>
-    <PackageId>Nop.Plgugin.Templates</PackageId>
+	  <PackageIcon>icon.png</PackageIcon>
+    <PackageId>Nop.Plugin.Templates</PackageId>
     <Title>Nop Plugin Templates</Title>
     <Authors>Kazi Rahiv</Authors>
     <Description>Templates to use when creating an application for Nopcommerce.</Description>
@@ -15,8 +15,8 @@
     <ContentTargetFolders>content</ContentTargetFolders>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <NoDefaultExcludes>true</NoDefaultExcludes>
-	<RepositoryUrl>https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git</RepositoryUrl>
-	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RepositoryUrl>https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -34,6 +34,7 @@
     <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewMisc\.template.config" PackagePath="content\Nop.Plugin.Misc.NewMisc\.template.config" />
     <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewPayment\.template.config" PackagePath="content\Nop.Plugin.Misc.NewPayment\.template.config" />
     <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewWidget\.template.config" PackagePath="content\Nop.Plugin.Misc.NewWidget\.template.config" />
+    <Content Include="icon.png" LinkBase="templates\Nop.Plugin.DiscountRules.NewDiscount\.template.config" PackagePath="content\Nop.Plugin.DiscountRules.NewDiscount\.template.config" />
   </ItemGroup>
 
 

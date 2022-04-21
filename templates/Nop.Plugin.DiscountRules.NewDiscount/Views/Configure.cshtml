@@ -1,0 +1,77 @@
+﻿@{
+    Layout = "";
+}
+
+@model Nop.Plugin.DiscountRules.NewDiscount.Models.RequirementModel
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#saveNewDiscountrequirement@(Model.RequirementId)').click(function () {
+            var discountId = @Model.DiscountId;
+            var requirementId = @Model.RequirementId;
+
+            var postData = {
+                DiscountId: discountId,
+                RequirementId: requirementId
+            };
+            addAntiForgeryToken(postData);
+
+            $.ajax({
+                cache:false,
+                type: "POST",
+                url: "@(Url.Action("Configure", "DiscountRulesNewDiscount"))",
+                data: postData,
+                success: function (data, textStatus, jqXHR) {
+                    $('#pnl-save-requirement-result@(Model.RequirementId)').fadeIn("slow").delay(1000).fadeOut("slow");
+                    //notify parent if it's a new requirement
+                    @if (Model.RequirementId == 0)
+                    {
+                        <text>$("#discountRequirementContainer").trigger('nopnewdiscountruleadded', [data.NewRequirementId]);</text>
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    var $alertInfoEl = $("#saveNewDiscountrequirementAlert-info");
+                    let response = jqXHR.responseJSON;
+                    if (response instanceof Object && response.hasOwnProperty('Errors')) {
+                        var errorMessages = '';
+                        $.each(response.Errors, function (i, error) {
+                            errorMessages += error;
+                            if (response.Errors.length - 1 != i)
+                                errorMessages += '</br>';
+                        });
+                        $alertInfoEl.html(errorMessages);
+                    } else {
+                        // display default error
+                        $alertInfoEl.html('@T("Admin.Promotions.Discounts.Requirements.FailedToSave")');
+                    }
+
+                    $("#saveNewDiscountrequirementAlert").click();
+                }
+            });
+        });
+    });
+</script>
+<div class="form-group row">
+    <div class="col-md-offset-3 col-md-9 requirement-messages-col">
+        <div class="requirement-product-names text-blue" id="discountrequirement-product-names@(Model.RequirementId)"></div>
+        <div id="pnl-save-requirement-result@(Model.RequirementId)" style="display: none;" class="text-green margin-t-5">
+            @T("Admin.Promotions.Discounts.Requirements.Saved")
+        </div>
+        <div id="discountrequirement-products-check-progress@(Model.RequirementId)" class="please-wait pull-right" style="display: none;">
+            @T("Common.Wait...")
+        </div>
+    </div>
+</div>
+<nop-alert asp-alert-id="saveNewDiscountrequirementAlert" />
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#btnRefreshDiscountRequirementProducts@(Model.RequirementId)').click(function () {
+            //refresh product list
+            loadDiscountRequirementProductFriendlyNames@(Model.RequirementId)();
+
+            //return false to don't reload a page
+            return false;
+        });
+    });
+    </script>

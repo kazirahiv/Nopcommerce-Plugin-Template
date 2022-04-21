@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Discount requirements",
+  "FriendlyName": "New Discount",
+  "SystemName": "DiscountRequirement.NewDiscount",
+  "Version": "%VersionName%",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "%AuthorName%",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.DiscountRules.NewDiscount.dll",
+  "Description": "This plugin allows you to configure discounts for customers"
+}

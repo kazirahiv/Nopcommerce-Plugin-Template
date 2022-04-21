@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Kazi Rahiv",
+  "classifications": [
+    "Web"
+  ],
+  "name": "Nopcommerce Discount Plugin",
+  "icon": "icon.png",
+  "identity": "Nopcommerce.Templates.Discount",
+  "shortName": "nop-discount",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "sourceName": "NewDiscount",
+  "symbols": {
+    "AuthorName": {
+      "displayName": "Author Name",
+      "type": "parameter",
+      "description": "The plugin author name",
+      "datatype": "text",
+      "defaultValue": "My Team",
+      "replaces": "%AuthorName%"
+    },
+    "VersionName": {
+      "displayName": "Version Name",
+      "type": "parameter",
+      "description": "Plugin version",
+      "datatype": "text",
+      "defaultValue": "1.0.0",
+      "replaces": "%VersionName%"
+    }
+  }
+}
