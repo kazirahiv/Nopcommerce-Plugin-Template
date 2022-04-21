@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0</PackageVersion>
@@ -16,19 +15,22 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <NoDefaultExcludes>true</NoDefaultExcludes>
     <RepositoryUrl>https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git</PackageProjectUrl>
+    <PackageReleaseNotes>Discount,Widget,Payment,Misc plugin template. </PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
-
   <ItemGroup>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
-  
   <ItemGroup>
     <None Remove="**\*" />
     <None Include="icon.png" LinkBase="shared" Visible="false" Pack="true" PackagePath="" />
+    <None Include="LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
-
   <!-- Shared items to include in every template -->
   <ItemGroup>
     <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewMisc\.template.config" PackagePath="content\Nop.Plugin.Misc.NewMisc\.template.config" />
@@ -36,10 +38,4 @@
     <Content Include="icon.png" LinkBase="templates\Nop.Plugin.Misc.NewWidget\.template.config" PackagePath="content\Nop.Plugin.Misc.NewWidget\.template.config" />
     <Content Include="icon.png" LinkBase="templates\Nop.Plugin.DiscountRules.NewDiscount\.template.config" PackagePath="content\Nop.Plugin.DiscountRules.NewDiscount\.template.config" />
   </ItemGroup>
-
-
-
-
-
-
 </Project>
