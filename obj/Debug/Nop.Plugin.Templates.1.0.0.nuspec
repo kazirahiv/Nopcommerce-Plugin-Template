@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Nop.Plugin.Templates</id>
+    <version>1.0.0</version>
+    <title>Nop Plugin Templates</title>
+    <authors>nopStation, kazirahiv</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git</projectUrl>
+    <description>Templates to use when creating an application for Nopcommerce.</description>
+    <releaseNotes>Discount,Widget,Payment,Misc plugin template.</releaseNotes>
+    <copyright>MIT</copyright>
+    <tags>dotnet-new templates nop nopcommerce</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/kazirahiv/Nopcommerce-Plugin-Template.git" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\.template.config\icon.png" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\.template.config\template.json" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\.template.config\template.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Controllers\DiscountRulesNewDiscountController.cs" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Controllers\DiscountRulesNewDiscountController.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\DiscountRequirementDefaults.cs" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\DiscountRequirementDefaults.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Infrastructure\Cache\DiscountRequirementEventConsumer.cs" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Infrastructure\Cache\DiscountRequirementEventConsumer.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\logo.png" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\logo.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Models\RequirementModel.cs" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Models\RequirementModel.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\NewDiscountDiscountRequirementRule.cs" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\NewDiscountDiscountRequirementRule.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Nop.Plugin.DiscountRules.NewDiscount.csproj" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Nop.Plugin.DiscountRules.NewDiscount.csproj" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Notes.txt" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Notes.txt" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\plugin.json" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\plugin.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Validators\RequirementModelValidator.cs" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Validators\RequirementModelValidator.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Views\Configure.cshtml" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Views\Configure.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.DiscountRules.NewDiscount\Views\_ViewImports.cshtml" target="content\templates\Nop.Plugin.DiscountRules.NewDiscount\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\.template.config\icon.png" target="content\templates\Nop.Plugin.Misc.NewMisc\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\.template.config\template.json" target="content\templates\Nop.Plugin.Misc.NewMisc\.template.config\template.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Content\styles.css" target="content\templates\Nop.Plugin.Misc.NewMisc\Content\styles.css" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Controllers\NewMiscController.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\Controllers\NewMiscController.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Infrastructure\NopStartup.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\Infrastructure\NopStartup.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Infrastructure\RouteProvider.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\Infrastructure\RouteProvider.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\logo.png" target="content\templates\Nop.Plugin.Misc.NewMisc\logo.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Models\ConfigurationModel.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\Models\ConfigurationModel.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\NewMiscDefaults.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\NewMiscDefaults.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\NewMiscPlugin.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\NewMiscPlugin.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\NewMiscSettings.cs" target="content\templates\Nop.Plugin.Misc.NewMisc\NewMiscSettings.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Nop.Plugin.Misc.NewMisc.csproj" target="content\templates\Nop.Plugin.Misc.NewMisc\Nop.Plugin.Misc.NewMisc.csproj" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Notes.txt" target="content\templates\Nop.Plugin.Misc.NewMisc\Notes.txt" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\plugin.json" target="content\templates\Nop.Plugin.Misc.NewMisc\plugin.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Views\Configure.cshtml" target="content\templates\Nop.Plugin.Misc.NewMisc\Views\Configure.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Views\PublicInfo.cshtml" target="content\templates\Nop.Plugin.Misc.NewMisc\Views\PublicInfo.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Misc.NewMisc\Views\_ViewImports.cshtml" target="content\templates\Nop.Plugin.Misc.NewMisc\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\.template.config\icon.png" target="content\templates\Nop.Plugin.Payments.NewPayment\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\.template.config\template.json" target="content\templates\Nop.Plugin.Payments.NewPayment\.template.config\template.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Components\NewPaymentViewComponent.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Components\NewPaymentViewComponent.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Controllers\NewPaymentController.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Controllers\NewPaymentController.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Controllers\NewPaymentIpnController.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Controllers\NewPaymentIpnController.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Infrastructure\NopStartup.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Infrastructure\NopStartup.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Infrastructure\RouteProvider.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Infrastructure\RouteProvider.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\logo.png" target="content\templates\Nop.Plugin.Payments.NewPayment\logo.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Models\ConfigurationModel.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\Models\ConfigurationModel.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\NewPaymentHelper.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\NewPaymentHelper.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\NewPaymentPaymentProcessor.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\NewPaymentPaymentProcessor.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\NewPaymentPaymentSettings.cs" target="content\templates\Nop.Plugin.Payments.NewPayment\NewPaymentPaymentSettings.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Nop.Plugin.Payments.NewPayment.csproj" target="content\templates\Nop.Plugin.Payments.NewPayment\Nop.Plugin.Payments.NewPayment.csproj" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Notes.txt" target="content\templates\Nop.Plugin.Payments.NewPayment\Notes.txt" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\plugin.json" target="content\templates\Nop.Plugin.Payments.NewPayment\plugin.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Views\Configure.cshtml" target="content\templates\Nop.Plugin.Payments.NewPayment\Views\Configure.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Views\PaymentInfo.cshtml" target="content\templates\Nop.Plugin.Payments.NewPayment\Views\PaymentInfo.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Payments.NewPayment\Views\_ViewImports.cshtml" target="content\templates\Nop.Plugin.Payments.NewPayment\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\.template.config\icon.png" target="content\templates\Nop.Plugin.Widgets.NewWidget\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\.template.config\template.json" target="content\templates\Nop.Plugin.Widgets.NewWidget\.template.config\template.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Components\WidgetsNewWidgetViewComponent.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\Components\WidgetsNewWidgetViewComponent.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Content\style.css" target="content\templates\Nop.Plugin.Widgets.NewWidget\Content\style.css" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Controllers\WidgetsNewWidgetController.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\Controllers\WidgetsNewWidgetController.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\logo.png" target="content\templates\Nop.Plugin.Widgets.NewWidget\logo.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Models\ConfigurationModel.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\Models\ConfigurationModel.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Models\PublicInfoModel.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\Models\PublicInfoModel.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\NewWidgetPlugin.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\NewWidgetPlugin.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\NewWidgetSettings.cs" target="content\templates\Nop.Plugin.Widgets.NewWidget\NewWidgetSettings.cs" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Nop.Plugin.Widgets.NewWidget.csproj" target="content\templates\Nop.Plugin.Widgets.NewWidget\Nop.Plugin.Widgets.NewWidget.csproj" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Notes.txt" target="content\templates\Nop.Plugin.Widgets.NewWidget\Notes.txt" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\plugin.json" target="content\templates\Nop.Plugin.Widgets.NewWidget\plugin.json" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Scripts\scripts.js" target="content\templates\Nop.Plugin.Widgets.NewWidget\Scripts\scripts.js" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Views\Configure.cshtml" target="content\templates\Nop.Plugin.Widgets.NewWidget\Views\Configure.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Views\PublicInfo.cshtml" target="content\templates\Nop.Plugin.Widgets.NewWidget\Views\PublicInfo.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\templates\Nop.Plugin.Widgets.NewWidget\Views\_ViewImports.cshtml" target="content\templates\Nop.Plugin.Widgets.NewWidget\Views\_ViewImports.cshtml" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\icon.png" target="content\Nop.Plugin.Misc.NewMisc\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\icon.png" target="content\Nop.Plugin.Misc.NewPayment\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\icon.png" target="content\Nop.Plugin.Misc.NewWidget\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\icon.png" target="content\Nop.Plugin.DiscountRules.NewDiscount\.template.config\icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\icon.png" target="icon.png" />
+    <file src="C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\LICENSE" target="LICENSE" />
+  </files>
+</package>

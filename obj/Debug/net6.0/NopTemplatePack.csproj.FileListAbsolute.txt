@@ -1,0 +1,12 @@
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\bin\Debug\net6.0\NopTemplatePack.deps.json
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\bin\Debug\net6.0\NopTemplatePack.dll
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\bin\Debug\net6.0\NopTemplatePack.pdb
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.csproj.AssemblyReference.cache
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.AssemblyInfoInputs.cache
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.AssemblyInfo.cs
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.csproj.CoreCompileInputs.cache
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.dll
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\refint\NopTemplatePack.dll
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\NopTemplatePack.pdb
+C:\Users\ktamr\OneDrive\Desktop\Nopcommerce-Plugin-Template\obj\Debug\net6.0\ref\NopTemplatePack.dll

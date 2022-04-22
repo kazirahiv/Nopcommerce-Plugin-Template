@@ -5,7 +5,7 @@
 	  <PackageIcon>icon.png</PackageIcon>
     <PackageId>Nop.Plugin.Templates</PackageId>
     <Title>Nop Plugin Templates</Title>
-    <Authors>Kazi Rahiv</Authors>
+    <Authors>nopStation, kazirahiv</Authors>
     <Description>Templates to use when creating an application for Nopcommerce.</Description>
     <PackageTags>dotnet-new;templates;nop;nopcommerce</PackageTags>
     <TargetFramework>net6.0</TargetFramework>
