@@ -12,7 +12,7 @@ Latest: Nop.Plgugin.Templates.1.0.0.nupkg
 dotnet new -i Nop.Plgugin.Templates.1.0.0.nupkg
 ```
 
-![](https://github.com/kazirahiv/Nopcommerce-Plugin-Template/blob/main/samples/1.png?raw=true)
+![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/samples/1.png)
 
 It currently supports three different plugin/extension types. (Payment, Miscellaneous and Widget). If you want to add more, the repository is open to add more supports 😎 
 
@@ -22,17 +22,17 @@ Select File>New>Project or Right click in your solution > Add > New project
 
 Select from available options 
 
-![](https://github.com/kazirahiv/Nopcommerce-Plugin-Template/blob/main/samples/2.png?raw=true)
+![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/samples/2.png)
 
 
 Put your plugin name and set Plugins path of your Nopcommerce project
 
-![](https://github.com/kazirahiv/Nopcommerce-Plugin-Template/blob/main/samples/3.png?raw=true)
+![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/samples/3.png)
 
 
 Customize as you want 
 
-![](https://github.com/kazirahiv/Nopcommerce-Plugin-Template/blob/main/samples/4.png?raw=true)
+![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/samples/4.png)
 
 
 ## Example Usage (CLI)
@@ -47,7 +47,7 @@ Use -h parameter to get available parameter options
 ``` 
 dotnet new nop-payment -h 
 ```
-![](https://github.com/kazirahiv/Nopcommerce-Plugin-Template/blob/main/samples/5.png?raw=true)
+![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/samples/5.png)
 
 
 ## Contributing
