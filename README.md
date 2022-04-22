@@ -7,11 +7,11 @@ Nopcommerce Plugin Templates is a bundle of multiple templates which helps creat
 ## Installation
 
 Use the dotnet new cli to install the Nuget package.
-Latest: Nop.Plgugin.Templates.1.0.0.nupkg
+Latest: Nop.Plugin.Templates.1.1.0.nupkg
 
 
 ```
-dotnet new -i Nop.Plgugin.Templates.1.0.0.nupkg
+dotnet new -i Nop.Plugin.Templates.1.1.0.nupkg
 ```
 
 ![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/samples/1.png)
