@@ -1,5 +1,7 @@
 # Nopcommerce Plugin Templates
 
+![](https://raw.githubusercontent.com/kazirahiv/Nopcommerce-Plugin-Template/main/icon.png)
+
 Nopcommerce Plugin Templates is a bundle of multiple templates which helps creating different kind of Nopcommerce plugin/extensions at ease. 
 
 ## Installation
